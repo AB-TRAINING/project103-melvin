@@ -1,0 +1,13 @@
+.calendar .day-box {
+    height: 100px;
+}
+a{
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+h4{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
