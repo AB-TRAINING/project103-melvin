@@ -96,6 +96,8 @@ if(isset($_POST['submit']))
 </table>
 </form>
 
+<h4></h4>
+
 <h4><a href="/index.php">Go back Home</a></h4>
 </body>
 </html>
