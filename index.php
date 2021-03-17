@@ -59,11 +59,14 @@
                 </div>
             </div>
         </div>
-    </div>
-    
-    <div id="footer">
         
     </div>
-    </div>    
+    </div>
+
+        <div id="footer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure, et voluptatum repellat repellendus dolorum amet asperiores voluptatibus quaerat. Aliquam omnis placeat temporibus. Quo exercitationem doloremque, magni incidunt adipisci modi!
+        </div>
+    </div>
+        
 </body>
 </html>
