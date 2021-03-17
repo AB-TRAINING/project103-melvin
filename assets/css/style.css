@@ -1,0 +1,19 @@
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+h1{color: #dbdbdb}
+p{color: #bfbfbf}
+h4{color: #ffffff; text-align: center;}
+
+.body{
+  margin: 0px;
+  background-color: #4d4d4d;
+}
+
+div {
+  background-color: #4d4d4d;
+}
+
+.container mt-5{
+  background-color: white;
+}
