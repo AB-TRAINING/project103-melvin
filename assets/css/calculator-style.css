@@ -1,82 +1,116 @@
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif; background-color: #4d4d4d;}
-h1{color: #dbdbdb}
-p{color: #bfbfbf}
-.month {
-  padding: 70px 25px;
-  width: 100%;
-  background: #666;
+body{
+  background-color: #4d4d4d;
+}
+
+table{
+  align-self: center;
+  margin: auto;
+  background-color: #073449;
+  width: 295px;
+  height: 325px;
   text-align: center;
+  margin-top:50px;
+  border-radius: 4px;
 }
 
-.month ul {
-  margin: 0;
-  padding: 0;
+/*head*/
+.header {
+  background-color: #8f8f8f;
+  width: 84%;
+  height: 140px;
+  margin: auto;
+  margin-top: 5px;
 }
 
-.month ul li {
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+/*Calculator*/
+#calculator{
+  position: absolute;
+  max-width: 80%;
+  left: 58%;
+  top: 10%;
 }
 
-.month .prev {
+/*content*/
+.content {
+  width: calc(84%-20%);
+  height: 450px;
+  float: center;
+}
+
+.main{
+  float: left; /* Same width as the sidebar + left position in px */
+  font-size: 27px; /* Increased text to enable scrolling */
+  padding: 0px 11px;
+  background-color: #4d4d4d;
+}
+
+/*Calculation*/
+input{
+  outline: 0;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  border: 0;
+  color: #495069;
+  background-color: 4px;
+  width: 60px;
+  height: 50px;
   float: left;
-  padding-top: 10px;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
 }
-
-.month .next {
-  float: right;
-  padding-top: 10px;
+/* add input hover effectg */
+input:hover{
+  border: 0 solid #000;
+  color: #495069;
+  background-color: #8f5fda;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 4px #644294;
 }
-
-.weekdays {
-  margin: 0;
-  padding: 10px;
-  background-color: #ddd;
-}
-
-.weekdays li {
-  display: inline-block;
-  width: 13.6%;
-  color: black;
+#answer{
+  width: 270px;
+  font-size: 26px;
   text-align: center;
+  background-color: #f1faeb;
+  float: left;
 }
-
-.days {
-  padding: 10px 0;
-  background: #2b2b2b;
-  margin: 0;
-}
-
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
+/* answer hover effect */
+#answer:hover{
+  width: 270px;
+  font-size: 26px;
   text-align: center;
-  margin-bottom: 8px;
-  font-size:18px;
-  color: #777;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+  background-color: #f1faeb;
 }
 
-.days li .active {
-  padding: 5px;
-  background: #0f0f0f;
-  color: white !important
+.operator{
+  background-color: #f1ff92;
+  position: relative;
 }
 
-/* Add media queries for smaller screens */
-@media screen and (max-width:720px) {
-  .weekdays li, .days li {width: 13.1%;}
+/* hover */
+.operator:hover{
+  background-color: #e7f56b;
+  box-shadow: 0 4px #b7c259;
 }
-
-@media screen and (max-width: 420px) {
-  .weekdays li, .days li {width: 12.5%;}
-  .days li .active {padding: 2px;}
+#clear{
+  float: left;
+  position: relative;
+  display: block;
+  background-color: #ff9fa8;
+  margin-bottom: 15px;
 }
-
-@media screen and (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
+/* hover */
+#clear:hover{
+  float: left;
+  display: block;
+  background-color: #f297a0;
+  margin-bottom: 15px;
+  box-shadow: 0 4px #cc7f86;
 }
