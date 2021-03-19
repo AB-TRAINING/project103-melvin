@@ -23,36 +23,37 @@
                 <li>Calculator</li>
             </div>
 
-        <div class="main">
-            <div class="container mt-5">
-                <div class="row mt-5">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3>
-                                    Calendar
-                                </h3>
-                                <p class="card-text">
-                                    This is the calendar application.
-                                </p>
-                                <a href="/pages/calendar.php" class="btn btn-info card-link">
-                                    Open Application
-                                </a>
+            <div class="main">
+                <div class="container mt-5">
+                    <div class="row mt-5">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3>
+                                        Calendar
+                                    </h3>
+                                    <p class="card-text">
+                                        This is the calendar application.
+                                    </p>
+                                    <a href="/pages/calendar.php" class="btn btn-info card-link">
+                                        Open Application
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Calculator
-                                </h3>
-                                <p class="card-text">
-                                    This is the calculator application.
-                                </p>
-                                <a href="/pages/calculator.php" class="btn btn-info card-link">
-                                    Open Application
-                                </a>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        Calculator
+                                    </h3>
+                                    <p class="card-text">
+                                        This is the calculator application.
+                                    </p>
+                                    <a href="/pages/calculator.php" class="btn btn-info card-link">
+                                        Open Application
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -60,9 +61,6 @@
             </div>
         </div>
         
-    </div>
-    </div>
-
         <div id="footer">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure, et voluptatum repellat repellendus dolorum amet asperiores voluptatibus quaerat. Aliquam omnis placeat temporibus. Quo exercitationem doloremque, magni incidunt adipisci modi!
         </div>
